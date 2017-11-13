@@ -1,0 +1,21 @@
+{
+    "name": "bors/bootstrap3",
+
+    "authors": [
+        { "name": "Balancer", "email": "balancer@balancer.ru" }
+    ],
+
+    "require": {
+        "bors/jquery": "*"
+    },
+
+	"suggest": {
+		"bower-asset/bootstrap": "If you want to use a local asset instead of a CDN"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"B2\\": "./"
+		}
+	}
+}
