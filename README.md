@@ -1,4 +1,4 @@
-# bors/bootstrap3
+# bors/bootstrap4
 
 [Bootstrap](http://getbootstrap.com/) The most popular HTML, CSS, and JS library in the world
 
@@ -7,7 +7,7 @@
 composer require bors/bootstrap3
 
 # To use the local asset version, you also need:
-composer require bower-asset/bootstrap=^3.3.7
+composer require bower-asset/bootstrap=^4.0
 ```
 
 The local or CDN version is detected by the install of the package `bower-asset/bootstrap-tagsinput`.
