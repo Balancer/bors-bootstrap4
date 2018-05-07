@@ -1,5 +1,5 @@
 {
-    "name": "bors/bootstrap3",
+    "name": "bors/bootstrap4",
 
     "authors": [
         { "name": "Balancer", "email": "balancer@balancer.ru" }
@@ -10,7 +10,7 @@
     },
 
 	"suggest": {
-		"bower-asset/bootstrap": "If you want to use a local asset instead of a CDN"
+		"bower-asset/bootstrap=^4.0": "If you want to use a local asset instead of a CDN"
 	},
 
 	"autoload": {
