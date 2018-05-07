@@ -4,12 +4,14 @@ namespace B2;
 
 class Bootstrap4 extends \B2\Composer\PackageBowerAsset
 {
+	var $bower_package_name = 'bower-asset/bootstrap';
+
 	var $use_jquery = true;
 
 	var $cdn_uses = [
-		'//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css',
-		'//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css',
-		'//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js',
+		'//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css',
+		'//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap-theme.min.css',
+		'//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js',
 	];
 
 	static function local_uses()
