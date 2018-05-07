@@ -2,7 +2,7 @@
 
 namespace B2;
 
-class Bootstrap3
+class Bootstrap4
 {
 	static function load()
 	{
@@ -11,10 +11,9 @@ class Bootstrap3
 
 		if(empty(\bors::$bower_asset_packages['bower-asset/bootstrap']))
 		{
-			bors_use('//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
-			bors_use('//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css');
-			bors_use('//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js');
-			// IE10 viewport hack for Surface/desktop Windows 8 bug
+			bors_use('//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css');
+			bors_use('//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap-theme.min.css');
+			bors_use('//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js');
 		}
 		else
 		{
